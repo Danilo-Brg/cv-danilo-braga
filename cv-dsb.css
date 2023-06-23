@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dddddd;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.corpo {
+    background-color: #dddddd;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    height: cover;
+    
+}
+
+.topcs {
+    background-color: #dddddd;
+    border: yellow solid 2.5px;
+    width: 30%;
+    padding: 1em;
+    display: block;
+    text-align: center;
+
+}
+
+.profile {
+    border-radius: 50px;
+    width: 70%;
+    
+    
+}
+
+#nome {
+    font-size: large;
+    margin-top: 1em;
+    color: blue;
+}
+
+nav {
+    margin-top: 5em;
+    font-size: large;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ponto {
+    margin-bottom: 1em;
+    color: blue;
+}
+
+.ponto:hover {
+    cursor: pointer;
+    border-bottom: 2px solid yellow;
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    background-color: #dddd;
+    /*border-left: yellow solid 0.8px;*/
+    width: 70%;
+    height: 100%;
+    padding: 1em;
+    display: block;
+    align-items: center;
+
+}
+
+.text-contato {
+    background-color: #dddd;
+    width: 70%;
+    padding: 1em;
+    display: block;
+    align-items: center;
+
+}
+
+.topo {
+    display: block;
+    text-align: center;
+    padding-top: 2em 0em 1em 0em;
+    background-color: black;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.conteudo {
+    height: 500px;
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
+.conteudo-contato {
+    height: 500px;
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
+.conteudo h2{
+    margin: 2em 1em;
+    max-width: 665px;
+}
+
+.conteudo-contato h2{
+    margin: 2em 1em;
+    max-width: 665px;
+}
+
+.conteudo p {
+    text-align: justify;
+    line-height: 150%;
+}
+
+/*.conteudo p img {
+    width: 4em;
+    height: 4em;
+}*/
+
+.posicao-logo {
+    text-align: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.logo-jd {
+    width: 9em;
+    height: 9em;
+}
+
+.logo-wirtgen {
+    width: 4em;
+    height: 4em;
+    margin-bottom: 2.5em;
+}
+
+.conteudo ul {
+    text-align: left;
+    padding: 0 4em;
+}
+
+.logo {
+    width: 4em;
+    height: 3em;
+}
+
+.logo2 {
+    width: 8em;
+    height: 3em;
+}
+
+.empresa {
+    border-bottom: solid 3px yellow;
+    margin: 3em;
+}
+
+/*.logo3 {
+    width: 100px;
+    margin: 0;
+}*/
+
+h4 {
+    font-size: large;
+}
+
+.conteudo p{
+    width: 100%;
+    margin: 1em auto;
+    font-size: large;
+    align-items:center;
+}
+
+.conteudo-contato p{
+    width: 100%;
+    margin: 1em auto;
+    font-size: large;
+    align-items:center;
+    text-align: justify;
+    line-height: 150%;
+    
+}
+
+#equilibrista {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.whats {
+    width: 70%;
+    margin: 6em auto;
+    align-items: center;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 2em;
+}
