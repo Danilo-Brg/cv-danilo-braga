@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Lobster&family=Roboto+Mono:wght@300;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background-color: #dddddd;
-    width: 70%;
+    background-color: #736969d4;
+    color: #dddddd;
+    width: 80%;
     display: block;
     margin: 0 auto;
     min-height: 100vh;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .corpo {
-    background-color: #dddddd;
+    /*background-color: #dddddd;*/
     margin-top: 10%;
     display: flex;
     justify-content: center;
@@ -22,53 +29,59 @@ body {
 }
 
 .topcs {
-    background-color: #dddddd;
-    border: yellow solid 2.5px;
     width: 30%;
     padding: 1em;
     display: block;
     text-align: center;
+}
 
+.topcs h1 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .profile {
     border-radius: 50px;
-    width: 70%;
+    width: 150px;
     
     
 }
 
 #nome {
-    font-size: large;
+    font-size: 1.8em;
     margin-top: 1em;
-    color: blue;
+    color: rgba(229, 255, 0, 0.592);
 }
 
 nav {
-    margin-top: 5em;
+    margin-top: 3em;
     font-size: large;
     display: block;
     text-align: center;
     text-decoration: none;
 }
 
+
 .ponto {
     margin-bottom: 1em;
-    color: blue;
+    color: rgba(229, 255, 0, 0.592);
 }
 
 .ponto:hover {
     cursor: pointer;
     border-bottom: 2px solid yellow;
-    color: aqua;
+    color: rgba(0, 255, 255, 0.511);
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .text {
-    background-color: #dddd;
+    /*background-color: #dddd;*/
     /*border-left: yellow solid 0.8px;*/
     width: 70%;
     height: 100%;
@@ -79,7 +92,7 @@ a {
 }
 
 .text-contato {
-    background-color: #dddd;
+    /*background-color: #dddd;*/
     width: 70%;
     padding: 1em;
     display: block;
@@ -91,25 +104,27 @@ a {
     display: block;
     text-align: center;
     padding-top: 2em 0em 1em 0em;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.54);
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     color: #ffffff;
     margin-bottom: 1em;
+    text-align: start;
+    padding-left: 1em;
 }
 
 .conteudo {
-    height: 500px;
     display: block;
     text-align: center;
     margin:auto;
 }
 
 .conteudo-contato {
-    height: 500px;
-    display: block;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin:auto;
 }
@@ -203,13 +218,13 @@ h4 {
     margin: 0 auto;
 }
 
-.whats {
-    width: 70%;
-    margin: 6em auto;
+.contato {
+    width: 300px;
+    margin: 3em auto;
     align-items: center;
 }
 
 footer {
-    margin-top: 2em;
-    padding: 2em;
+    height: 100px;
+    text-align: end;
 }
